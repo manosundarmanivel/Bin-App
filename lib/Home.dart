@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
                 child: Padding(
                   padding: const EdgeInsets.all(50.0),
                   child: Text(
-                    'Company 1',
+                    'Company 10',
                     style: TextStyle(fontSize: 20),
                   ),
                 ),
@@ -105,6 +105,10 @@ class _HomePageState extends State<HomePage> {
             label: 'Add',
           ),
           BottomNavigationBarItem(
+            icon: Icon(Icons.school),
+            label: 'Map',
+          ),
+           BottomNavigationBarItem(
             icon: Icon(Icons.school),
             label: 'Map',
           ),
